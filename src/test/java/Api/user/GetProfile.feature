@@ -1,4 +1,4 @@
-Feature: G
+Feature: Get the Profile
 
 
   Scenario: Get profile
