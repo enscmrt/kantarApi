@@ -1,16 +1,20 @@
 <testsuite failures="0"
-           name="src/test/java/Api/User/GetProfile.feature"
+           name="src/test/java/Api/user/GetProfile.feature"
            skipped="0"
            tests="1"
-           time="1.077798">
-   <testcase classname="src.test.java.Api.User.GetProfile"
+           time="1.471305">
+   <testcase classname="src.test.java.Api.user.GetProfile"
              name="Get profile"
-             time="1.077798">
+             time="1.471305">
       <system-out>* url 'https://backend-dev-lmw8.onrender.com/kantar/api' .................. passed
 * path '/auth/profile' .................................................... passed
 * def mytoken = call read('classpath:GetToken.feature') ................... passed
 * header token = mytoken.response.accessToken ............................. passed
+* header Content-Type = 'application/json' ................................ passed
 * method GET .............................................................. passed
-* status 200 .............................................................. passed</system-out>
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+* match response.roles contains 'driver' .................................. passed
+* match response.email contains 'enesgenerous@gmail.com' .................. passed</system-out>
    </testcase>
 </testsuite>
