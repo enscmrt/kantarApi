@@ -1,0 +1,83 @@
+20:42:27.204 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
+20:42:27.621 request:
+1 > POST https://backend-dev-lmw8.onrender.com/kantar/api/auth/login
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 58
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: backend-dev-lmw8.onrender.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.20)
+{"email":"enesgenerous@gmail.com","password":"Eg210315.,"}
+
+20:42:27.940 response time in milliseconds: 317.51
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-Ray: 8e93ea38ad0b3a7f-FRA
+1 < Connection: keep-alive
+1 < Content-Language: tr
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 27 Nov 2024 17:42:27 GMT
+1 < ETag: W/"13d-/hTEGC5kBXS72cY0Fyh619MuSpw"
+1 < Server: cloudflare
+1 < Set-Cookie: connect.sid=s%3AAm2MI-94jBW2-3DDTWdFlZdjoPHkmwMw.Tx0Yrq%2BedwsMisxaHjwOwHbIcWz6b1TwX6nvSm0GmnU; Path=/; HttpOnly
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < access-control-allow-credentials: true
+1 < alt-svc: h3=":443"; ma=86400
+1 < content-security-policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < cross-origin-opener-policy: same-origin
+1 < cross-origin-resource-policy: same-origin
+1 < origin-agent-cluster: ?1
+1 < referrer-policy: no-referrer
+1 < rndr-id: b8289959-a33d-46e0
+1 < x-content-type-options: nosniff
+1 < x-dns-prefetch-control: off
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-render-origin-server: Render
+1 < x-xss-protection: 0
+{"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MWY3NGM2OTVjMTdlOGNmMWIxN2YwMCIsInJvbGVzIjpbImRyaXZlciJdLCJlbWFpbCI6ImVuZXNnZW5lcm91c0BnbWFpbC5jb20iLCJjb21wYW55SWQiOiI2NzFmNzRjNjk1YzE3ZThjZjFiMTdmMDEiLCJpYXQiOjE3MzI3MjkzNDcsImV4cCI6MTczMjk4ODU0N30.P_o8I3eJG4_wTg7nZPAVd1Vy-QkyF9aiK2n47qYn_iI"}
+
+20:42:27.954 request:
+1 > GET https://backend-dev-lmw8.onrender.com/kantar/api/auth/profile
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: backend-dev-lmw8.onrender.com
+1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.20)
+1 > token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MWY3NGM2OTVjMTdlOGNmMWIxN2YwMCIsInJvbGVzIjpbImRyaXZlciJdLCJlbWFpbCI6ImVuZXNnZW5lcm91c0BnbWFpbC5jb20iLCJjb21wYW55SWQiOiI2NzFmNzRjNjk1YzE3ZThjZjFiMTdmMDEiLCJpYXQiOjE3MzI3MjkzNDcsImV4cCI6MTczMjk4ODU0N30.P_o8I3eJG4_wTg7nZPAVd1Vy-QkyF9aiK2n47qYn_iI
+
+20:42:28.293 response time in milliseconds: 337.46
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-Ray: 8e93ea3a1c2a1ca3-FRA
+1 < Connection: keep-alive
+1 < Content-Language: tr
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Wed, 27 Nov 2024 17:42:28 GMT
+1 < ETag: W/"3ca-6yAA0ADcadDyYQGlKQ4J3Th9hEo"
+1 < Server: cloudflare
+1 < Set-Cookie: connect.sid=s%3AsmebCeA1VW6qWqlxKx5txMKqg-sB18Ta.C8hcvNvYDtr%2BNDd2eJ4IfGzaYCvVoIZC4gsde4pGPCw; Path=/; HttpOnly
+1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
+1 < Transfer-Encoding: chunked
+1 < Vary: Origin, Accept-Encoding
+1 < access-control-allow-credentials: true
+1 < alt-svc: h3=":443"; ma=86400
+1 < content-security-policy: default-src 'self';base-uri 'self';font-src 'self' https: data:;form-action 'self';frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+1 < cross-origin-opener-policy: same-origin
+1 < cross-origin-resource-policy: same-origin
+1 < origin-agent-cluster: ?1
+1 < referrer-policy: no-referrer
+1 < rndr-id: 09e3d99b-4b71-425f
+1 < x-content-type-options: nosniff
+1 < x-dns-prefetch-control: off
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-render-origin-server: Render
+1 < x-xss-protection: 0
+{"_id":"671f74c695c17e8cf1b17f00","email":"enesgenerous@gmail.com","name":"Samet","surname":"Eren","img":"https://kantar-s3-bucket.s3.eu-central-1.amazonaws.com/profilePictures/cat_3-1730388629510.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA4MTWKJSV2G3PQV4O%2F20241127%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20241127T174228Z&X-Amz-Expires=3600&X-Amz-Signature=17985ce29b03419b36bc56185ae3020a56130de96275b3c42261211857bea009&X-Amz-SignedHeaders=host&x-id=GetObject","avatarColor":"6aa9f8","roles":["driver"],"loadTyp":["Cimento","Kum","Cakil"],"locale":"tr","ip":"10.217.170.72","isBuilder":false,"verified":true,"provider":"none","country":"Turkiye","identity":"12345678912","passive":false,"companyId":"671f74c695c17e8cf1b17f01","createdAt":"2024-10-28T11:25:58.576Z","updatedAt":"2024-11-26T09:11:06.312Z","phoneNumber":"01111114438","cardUserKey":"a6a1bc9d-12bd-1304-1d98-52cea6231471","defaultCardIndex":0}
+
+
+

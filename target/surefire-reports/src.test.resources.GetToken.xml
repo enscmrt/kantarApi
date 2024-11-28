@@ -1,0 +1,15 @@
+<testsuite failures="0"
+           name="src/test/resources/GetToken.feature"
+           skipped="0"
+           tests="1"
+           time="1.006333">
+   <testcase classname="src.test.resources.GetToken"
+             name="Get Token"
+             time="1.006333">
+      <system-out>* url 'https://backend-dev-lmw8.onrender.com/kantar/api' .................. passed
+* path '/auth/login' ...................................................... passed
+* def mybody = ............................................................ passed
+* request mybody .......................................................... passed
+* method POST ............................................................. passed</system-out>
+   </testcase>
+</testsuite>
