@@ -1,20 +1,27 @@
-<testsuite failures="0"
+<testsuite failures="1"
            name="src/test/java/Api/user/GetProfile.feature"
            skipped="0"
            tests="1"
-           time="1.471305">
+           time="20.574071">
    <testcase classname="src.test.java.Api.user.GetProfile"
              name="Get profile"
-             time="1.471305">
-      <system-out>* url 'https://backend-dev-lmw8.onrender.com/kantar/api' .................. passed
+             time="20.574071">
+      <failure message="GetProfile.feature:7 - &#xA;GetToken.feature:15 - &#xA;java.net.SocketTimeoutException: Read timed out">* url 'https://backend-dev-lmw8.onrender.com/kantar/api' .................. passed
 * path '/auth/profile' .................................................... passed
-* def mytoken = call read('classpath:GetToken.feature') ................... passed
-* header token = mytoken.response.accessToken ............................. passed
-* header Content-Type = 'application/json' ................................ passed
-* method GET .............................................................. passed
-* status 200 .............................................................. passed
-* print response .......................................................... passed
-* match response.roles contains 'driver' .................................. passed
-* match response.email contains 'enesgenerous@gmail.com' .................. passed</system-out>
+* def mytoken = call read('classpath:GetToken.feature') ................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: GetProfile.feature:7 - 
+GetToken.feature:15 - 
+java.net.SocketTimeoutException: Read timed out&#xD;
+	at ✽.* def mytoken = call read('classpath:GetToken.feature') (GetProfile.feature:7)&#xD;
+
+* header token = mytoken.response.accessToken ............................. skipped
+* header Content-Type = 'application/json' ................................ skipped
+* method GET .............................................................. skipped
+* status 200 .............................................................. skipped
+* print response .......................................................... skipped
+* match response.roles contains 'driver' .................................. skipped
+* match response.email contains 'enesgenerous@gmail.com' .................. skipped</failure>
    </testcase>
 </testsuite>

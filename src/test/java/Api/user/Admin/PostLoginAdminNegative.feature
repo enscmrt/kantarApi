@@ -1,16 +1,17 @@
 Feature:
 
-  Scenario: Get Token
+  Scenario: Get Token Admin
 
     * url baseUrl
     * path '/auth/login'
     * def mybody =
     """
     {
-    "email":"enesgenerous@gmail.com",
-    "password":"Eg210315.,"
+    "email":"husrevlal@gmail.com",
+    "password":"Qwe5qweqwe."
 }
     """
     * request mybody
     * method POST
-    * status 200
+    * status 404
+    * print response
