@@ -8,9 +8,9 @@ Feature:
     """
     {
     "email":"enesgenerous@gmail.com",
-    "password":"Eg210315.,"
+    "password":"Eg21015.,"
 }
     """
     * request mybody
     * method POST
-    * status 200
+    * status 401

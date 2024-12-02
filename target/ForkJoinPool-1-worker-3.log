@@ -1,5 +1,4 @@
-19:54:22.245 skipping bootstrap configuration: could not find or read file: classpath:karate-config.js
-19:54:22.696 request:
+12:02:51.123 request:
 1 > POST https://backend-dev-lmw8.onrender.com/kantar/api/auth/login
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -9,17 +8,17 @@
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.20)
 {"email":"enesgenerous@gmail.com","password":"Eg210315.,"}
 
-19:54:23.473 response time in milliseconds: 773.72
+12:02:52.134 response time in milliseconds: 1008.81
 1 < 200
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-Ray: 8e9be12e7d52d24a-FRA
+1 < CF-Ray: 8eba23f3bcd818dc-FRA
 1 < Connection: keep-alive
 1 < Content-Language: tr
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Thu, 28 Nov 2024 16:54:23 GMT
-1 < ETag: W/"13d-PaA0uCKItvKp3X1gBmGbDXrLiGc"
+1 < Date: Mon, 02 Dec 2024 09:02:51 GMT
+1 < ETag: W/"13d-7k2U5Z6H2j3z/tYmTezKgl1WSlk"
 1 < Server: cloudflare
-1 < Set-Cookie: connect.sid=s%3AUD72CBXqR9NBAsWuAsC4UCFTdGpEpgYH.EKy1hTkThgSegDBnQasamL3oxesFaUsURSBkmHCDoZ0; Path=/; HttpOnly
+1 < Set-Cookie: connect.sid=s%3A5w7Y_XZ4YHoxxg6SVouwu5kgYpB-UmHF.%2BETq1jXn6tRGd52lO%2BwQ9zwRfRoxKPIPN5dPNzKg%2B2w; Path=/; HttpOnly
 1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
 1 < Transfer-Encoding: chunked
 1 < Vary: Origin, Accept-Encoding
@@ -30,7 +29,7 @@
 1 < cross-origin-resource-policy: same-origin
 1 < origin-agent-cluster: ?1
 1 < referrer-policy: no-referrer
-1 < rndr-id: 07f1eeae-bb7c-441a
+1 < rndr-id: ab477e08-ecb2-460d
 1 < x-content-type-options: nosniff
 1 < x-dns-prefetch-control: off
 1 < x-download-options: noopen
@@ -38,28 +37,30 @@
 1 < x-permitted-cross-domain-policies: none
 1 < x-render-origin-server: Render
 1 < x-xss-protection: 0
-{"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MWY3NGM2OTVjMTdlOGNmMWIxN2YwMCIsInJvbGVzIjpbImRyaXZlciJdLCJlbWFpbCI6ImVuZXNnZW5lcm91c0BnbWFpbC5jb20iLCJjb21wYW55SWQiOiI2NzFmNzRjNjk1YzE3ZThjZjFiMTdmMDEiLCJpYXQiOjE3MzI4MTI4NjMsImV4cCI6MTczNTQwNDg2M30.v_gPVartQs04K-gGRqHYO4JR8PIbNmdINhw3xbi63jY"}
+{"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MWY3NGM2OTVjMTdlOGNmMWIxN2YwMCIsInJvbGVzIjpbImRyaXZlciJdLCJlbWFpbCI6ImVuZXNnZW5lcm91c0BnbWFpbC5jb20iLCJjb21wYW55SWQiOiI2NzFmNzRjNjk1YzE3ZThjZjFiMTdmMDEiLCJpYXQiOjE3MzMxMzAxNzEsImV4cCI6MTczNTcyMjE3MX0.gyuc_KtgmpSCNUd_9v-pf0URcQpzUEoZi5wTV6blTZo"}
 
-19:54:23.489 request:
-1 > GET https://backend-dev-lmw8.onrender.com/kantar/api/auth/profile
+:16.579 request:
+1 > PUT https://backend-dev-lmw8.onrender.com/kantar/api/auth/updateuser/671f74c695c17e8cf1b17f00
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
-1 > Content-Type: application/json
+1 > Content-Length: 287
+1 > Content-Type: application/json; charset=UTF-8
 1 > Host: backend-dev-lmw8.onrender.com
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.20)
-1 > token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MWY3NGM2OTVjMTdlOGNmMWIxN2YwMCIsInJvbGVzIjpbImRyaXZlciJdLCJlbWFpbCI6ImVuZXNnZW5lcm91c0BnbWFpbC5jb20iLCJjb21wYW55SWQiOiI2NzFmNzRjNjk1YzE3ZThjZjFiMTdmMDEiLCJpYXQiOjE3MzI4MTI4NjMsImV4cCI6MTczNTQwNDg2M30.v_gPVartQs04K-gGRqHYO4JR8PIbNmdINhw3xbi63jY
+1 > token: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MWY3NGM2OTVjMTdlOGNmMWIxN2YwMCIsInJvbGVzIjpbImRyaXZlciJdLCJlbWFpbCI6ImVuZXNnZW5lcm91c0BnbWFpbC5jb20iLCJjb21wYW55SWQiOiI2NzFmNzRjNjk1YzE3ZThjZjFiMTdmMDEiLCJpYXQiOjE3MzMwNzAxMzYsImV4cCI6MTczNTY2MjEzNn0.0ybzQHSESRj2uvax4rEg_-DQXalDWzE_KIIm1qSl8_Y
+{"name":"Mehmet","surname":"Ozbay","email":"mehmetoz.ozbay@gmail.com","phoneNumber":"01111114438","identity":"01234567891","roles":["superadmin","admin"],"defaultFrontPlate":"34 BB 015","defaultBackPlate":"34 BB 015","loadTyp":["Cimento","Kum","Cakil"],"country":"Turkiye","locale":"tr"}
 
-19:54:23.730 response time in milliseconds: 239.10
-1 < 200
+19:22:16.800 response time in milliseconds: 219.01
+1 < 401
 1 < CF-Cache-Status: DYNAMIC
-1 < CF-Ray: 8e9be12ff9ac3a8b-FRA
+1 < CF-Ray: 8eb46a435d7703dc-FRA
 1 < Connection: keep-alive
 1 < Content-Language: tr
 1 < Content-Type: application/json; charset=utf-8
-1 < Date: Thu, 28 Nov 2024 16:54:24 GMT
-1 < ETag: W/"3ca-KUu4/efrO8+7yHt19L29QzSl5ik"
+1 < Date: Sun, 01 Dec 2024 16:22:16 GMT
+1 < ETag: W/"95-Mh7ueBiXvsIY20xs3jQKkSB1kdY"
 1 < Server: cloudflare
-1 < Set-Cookie: connect.sid=s%3ACGpu3HoL-C9yQ-gbVAHZhHBge3mSTHOo.0kepQVAzCqrmRmp6RpBFsXwnS%2BfppMzXPnnVnLQhY2g; Path=/; HttpOnly
+1 < Set-Cookie: connect.sid=s%3AMfJtZ8LEA4J2K_cAeT_AsoExQzEKNJxJ.l6fQpm8pXZLWScuf64pD0DghXutYn%2ByAIgaeDaDSD3M; Path=/; HttpOnly
 1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
 1 < Transfer-Encoding: chunked
 1 < Vary: Origin, Accept-Encoding
@@ -70,7 +71,7 @@
 1 < cross-origin-resource-policy: same-origin
 1 < origin-agent-cluster: ?1
 1 < referrer-policy: no-referrer
-1 < rndr-id: 87314e2f-03a0-421e
+1 < rndr-id: 7f08775a-0402-463a
 1 < x-content-type-options: nosniff
 1 < x-dns-prefetch-control: off
 1 < x-download-options: noopen
@@ -78,39 +79,318 @@
 1 < x-permitted-cross-domain-policies: none
 1 < x-render-origin-server: Render
 1 < x-xss-protection: 0
-{"_id":"671f74c695c17e8cf1b17f00","email":"enesgenerous@gmail.com","name":"Samet","surname":"Eren","img":"https://kantar-s3-bucket.s3.eu-central-1.amazonaws.com/profilePictures/cat_3-1730388629510.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA4MTWKJSV2G3PQV4O%2F20241128%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20241128T165424Z&X-Amz-Expires=3600&X-Amz-Signature=c4114bd2670d1b53def3a8c830237d27d9281a603b613bb06b2c210a63459b37&X-Amz-SignedHeaders=host&x-id=GetObject","avatarColor":"6aa9f8","roles":["driver"],"loadTyp":["Cimento","Kum","Cakil"],"locale":"tr","ip":"10.217.170.72","isBuilder":false,"verified":true,"provider":"none","country":"Turkiye","identity":"12345678912","passive":false,"companyId":"671f74c695c17e8cf1b17f01","createdAt":"2024-10-28T11:25:58.576Z","updatedAt":"2024-11-26T09:11:06.312Z","phoneNumber":"01111114438","cardUserKey":"a6a1bc9d-12bd-1304-1d98-52cea6231471","defaultCardIndex":0}
+{"message":"Bu sayfayı görmeye yetkiniz bulunmamaktadır.","timestamp":1733070136891,"path":"/kantar/api/auth/updateuser/671f74c695c17e8cf1b17f00"}
 
-19:54:23.731 [print] {
-  "country": "Turkiye",
-  "defaultCardIndex": 0,
-  "img": "https://kantar-s3-bucket.s3.eu-central-1.amazonaws.com/profilePictures/cat_3-1730388629510.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIA4MTWKJSV2G3PQV4O%2F20241128%2Feu-central-1%2Fs3%2Faws4_request&X-Amz-Date=20241128T165424Z&X-Amz-Expires=3600&X-Amz-Signature=c4114bd2670d1b53def3a8c830237d27d9281a603b613bb06b2c210a63459b37&X-Amz-SignedHeaders=host&x-id=GetObject",
-  "cardUserKey": "a6a1bc9d-12bd-1304-1d98-52cea6231471",
-  "isBuilder": false,
-  "roles": [
-    "driver"
-  ],
-  "ip": "10.217.170.72",
-  "verified": true,
-  "avatarColor": "6aa9f8",
-  "locale": "tr",
-  "passive": false,
-  "createdAt": "2024-10-28T11:25:58.576Z",
-  "companyId": "671f74c695c17e8cf1b17f01",
-  "phoneNumber": "01111114438",
-  "loadTyp": [
-    "Cimento",
-    "Kum",
-    "Cakil"
-  ],
-  "provider": "none",
-  "surname": "Eren",
-  "identity": "12345678912",
-  "name": "Samet",
-  "_id": "671f74c695c17e8cf1b17f00",
-  "email": "enesgenerous@gmail.com",
-  "updatedAt": "2024-11-26T09:11:06.312Z"
-}
+695c17e8cf1b17f00"}
+
+1 < x-download-options: noopen
+1 < x-frame-options: SAMEORIGIN
+1 < x-permitted-cross-domain-policies: none
+1 < x-render-origin-server: Render
+1 < x-xss-protection: 0
+{"message":"Bu sayfayı görmeye yetkiniz bulunmamaktadır.","timestamp":1733060961326,"path":"/kantar/api/auth/updateuser/66c036a4c6a6950a82d7c79d"}
+
+3365d3488","email":"qnvmdegp07@zvvv.com","name":"Emre","surname":"Test","img":"../images/profile.png","avatarColor":"a3c18","roles":["driver"],"loadTyp":[],"locale":"tr","ip":"10.217.57.122","isBuilder":false,"verified":true,"provider":"none","country":"Türkiye","companyId":"65e0ec2e33994f4429481683","identity":"00000000000","passive":false,"createdAt":"2024-11-05T17:47:19.062Z","updatedAt":"2024-11-05T17:47:19.062Z"},{"_id":"6727c5ef337ea21102398125","email":"qnvmdegp7@zvvzuv.com","name":"Emre","surname":"Test","img":"../images/profile.png","avatarColor":"3b458b","roles":["driver"],"loadTyp":[],"locale":"tr","ip":"10.217.17.123","isBuilder":false,"verified":true,"provider":"none","country":"Türkiye","companyId":"65e0ec2e33994f4429481683","identity":"00000000000","passive":false,"createdAt":"2024-11-03T18:50:23.820Z","updatedAt":"2024-11-03T18:50:23.820Z"},{"_id":"67250cb6a23d737d6bdb91e3","email":"qnvex@zvvzuv.com","name":"Enes","surname":"Test","img":"../images/profile.png","avatarColor":"c534dc","roles":["driver"],"loadTyp":[],"locale":"tr","ip":"10.217.166.187","isBuilder":false,"verified":true,"provider":"none","country":"Türkiye","companyId":"65e0ec2e33994f4429481683","identity":"00000000000","passive":false,"createdAt":"2024-11-01T17:15:34.723Z","updatedAt":"2024-11-01T17:15:34.723Z"},{"_id":"67250935a23d737d6bdb91dd","email":"qnvexa@zvvzuv.com","name":"Enes","surname":"Test","img":"../images/profile.png","avatarColor":"c534dc","roles":["driver"],"loadTyp":[],"locale":"tr","ip":"10.217.166.187","isBuilder":false,"verified":true,"provider":"none","country":"Türkiye","companyId":"65e0ec2e33994f4429481683","identity":"00000000000","passive":false,"createdAt":"2024-11-01T17:00:37.601Z","updatedAt":"2024-11-01T17:00:37.601Z"},{"_id":"672506d9a23d737d6bdb91d7","email":"qnvexar@zvvzuv.com","name":"Enes","surname":"Test","img":"../images/profile.png","avatarColor":"c534dc","roles":["driver"],"loadTyp":[],"locale":"tr","ip":"10.217.166.187","isBuilder":false,"verified":true,"provider":"none","country":"Türkiye","companyId":"65e0ec2e33994f4429481683","identity":"00000000000","passive":false,"createdAt":"2024-11-01T16:50:33.568Z","updatedAt":"2024-11-01T16:50:33.568Z"},{"_id":"67250662a23d737d6bdb91d4","email":"qnvmdeg@zvvzuv.com","name":"Emre","surname":"Test","img":"../images/profile.png","avatarColor":"c534dc","roles":["driver"],"loadTyp":[],"locale":"tr","ip":"10.217.166.187","isBuilder":false,"verified":true,"provider":"none","country":"Türkiye","companyId":"65e0ec2e33994f4429481683","identity":"00000000000","passive":false,"createdAt":"2024-11-01T16:48:34.216Z","updatedAt":"2024-11-01T16:48:34.216Z"},{"_id":"6725061ca23d737d6bdb91ce","email":"qnvmdegp@zvvzuv.com","name":"Emre","surname":"Test","img":"../images/profile.png","avatarColor":"c534dc","roles":["driver"],"loadTyp":[],"locale":"tr","ip":"10.217.166.187","isBuilder":false,"verified":true,"provider":"none","country":"Türkiye","companyId":"65e0ec2e33994f4429481683","identity":"00000000000","passive":false,"createdAt":"2024-11-01T16:47:24.776Z","updatedAt":"2024-11-01T16:47:24.776Z"},{"_id":"671f9361085039b1f8e2de37","email":"qnvmdegp07@zvvzuv.com","name":"Emre","surname":"Test","img":"../images/profile.png","avatarColor":"b8c9ba","roles":["driver"],"loadTyp":[],"locale":"tr","ip":"192.168.1.186","isBuilder":false,"verified":true,"provider":"none","country":"Türkiye","companyId":"65e0ec2e33994f4429481683","identity":"00000000000","passive":true,"createdAt":"2024-10-28T13:36:33.315Z","updatedAt":"2024-10-28T13:44:23.429Z"},{"_id":"65ee58852136998ac2ac0122","email":"sameteren2341@gmail.com","name":"Mehmet","surname":"Eren","img":"../images/profile.png","avatarColor":"5f0ca8","roles":["admin"],"loadTyp":[],"locale":"tr","ip":"::1","isBuilder":false,"verified":true,"provider":"none","country":"Türkiye","companyId":"65e0ec2e33994f4429481683","createdAt":"2024-03-11T01:04:05.538Z","updatedAt":"2024-11-06T13:23:55.743Z","identity":"00000000000","passive":false}]
+
+16:28:05.766 [print] [
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "driver"
+    ],
+    "ip": "10.217.71.252",
+    "verified": true,
+    "avatarColor": "ee696c",
+    "locale": "tr",
+    "passive": false,
+    "createdAt": "2024-11-07T07:21:13.380Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Evrensel",
+    "identity": "00000000000",
+    "name": "Ahmet Demir",
+    "_id": "672c6a695ba8a5d72c625e70",
+    "email": "ahmet@hotmail.com",
+    "updatedAt": "2024-11-07T07:21:13.380Z"
+  },
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "driver"
+    ],
+    "ip": "10.217.57.122",
+    "verified": true,
+    "avatarColor": "a3c18",
+    "locale": "tr",
+    "passive": false,
+    "createdAt": "2024-11-05T17:47:19.062Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Test",
+    "identity": "00000000000",
+    "name": "Emre",
+    "_id": "672a5a27d73656e3365d3488",
+    "email": "qnvmdegp07@zvvv.com",
+    "updatedAt": "2024-11-05T17:47:19.062Z"
+  },
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "driver"
+    ],
+    "ip": "10.217.17.123",
+    "verified": true,
+    "avatarColor": "3b458b",
+    "locale": "tr",
+    "passive": false,
+    "createdAt": "2024-11-03T18:50:23.820Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Test",
+    "identity": "00000000000",
+    "name": "Emre",
+    "_id": "6727c5ef337ea21102398125",
+    "email": "qnvmdegp7@zvvzuv.com",
+    "updatedAt": "2024-11-03T18:50:23.820Z"
+  },
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "driver"
+    ],
+    "ip": "10.217.166.187",
+    "verified": true,
+    "avatarColor": "c534dc",
+    "locale": "tr",
+    "passive": false,
+    "createdAt": "2024-11-01T17:15:34.723Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Test",
+    "identity": "00000000000",
+    "name": "Enes",
+    "_id": "67250cb6a23d737d6bdb91e3",
+    "email": "qnvex@zvvzuv.com",
+    "updatedAt": "2024-11-01T17:15:34.723Z"
+  },
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "driver"
+    ],
+    "ip": "10.217.166.187",
+    "verified": true,
+    "avatarColor": "c534dc",
+    "locale": "tr",
+    "passive": false,
+    "createdAt": "2024-11-01T17:00:37.601Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Test",
+    "identity": "00000000000",
+    "name": "Enes",
+    "_id": "67250935a23d737d6bdb91dd",
+    "email": "qnvexa@zvvzuv.com",
+    "updatedAt": "2024-11-01T17:00:37.601Z"
+  },
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "driver"
+    ],
+    "ip": "10.217.166.187",
+    "verified": true,
+    "avatarColor": "c534dc",
+    "locale": "tr",
+    "passive": false,
+    "createdAt": "2024-11-01T16:50:33.568Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Test",
+    "identity": "00000000000",
+    "name": "Enes",
+    "_id": "672506d9a23d737d6bdb91d7",
+    "email": "qnvexar@zvvzuv.com",
+    "updatedAt": "2024-11-01T16:50:33.568Z"
+  },
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "driver"
+    ],
+    "ip": "10.217.166.187",
+    "verified": true,
+    "avatarColor": "c534dc",
+    "locale": "tr",
+    "passive": false,
+    "createdAt": "2024-11-01T16:48:34.216Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Test",
+    "identity": "00000000000",
+    "name": "Emre",
+    "_id": "67250662a23d737d6bdb91d4",
+    "email": "qnvmdeg@zvvzuv.com",
+    "updatedAt": "2024-11-01T16:48:34.216Z"
+  },
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "driver"
+    ],
+    "ip": "10.217.166.187",
+    "verified": true,
+    "avatarColor": "c534dc",
+    "locale": "tr",
+    "passive": false,
+    "createdAt": "2024-11-01T16:47:24.776Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Test",
+    "identity": "00000000000",
+    "name": "Emre",
+    "_id": "6725061ca23d737d6bdb91ce",
+    "email": "qnvmdegp@zvvzuv.com",
+    "updatedAt": "2024-11-01T16:47:24.776Z"
+  },
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "driver"
+    ],
+    "ip": "192.168.1.186",
+    "verified": true,
+    "avatarColor": "b8c9ba",
+    "locale": "tr",
+    "passive": true,
+    "createdAt": "2024-10-28T13:36:33.315Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Test",
+    "identity": "00000000000",
+    "name": "Emre",
+    "_id": "671f9361085039b1f8e2de37",
+    "email": "qnvmdegp07@zvvzuv.com",
+    "updatedAt": "2024-10-28T13:44:23.429Z"
+  },
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "admin"
+    ],
+    "ip": "::1",
+    "verified": true,
+    "avatarColor": "5f0ca8",
+    "locale": "tr",
+    "passive": false,
+    "createdAt": "2024-03-11T01:04:05.538Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Eren",
+    "identity": "00000000000",
+    "name": "Mehmet",
+    "_id": "65ee58852136998ac2ac0122",
+    "email": "sameteren2341@gmail.com",
+    "updatedAt": "2024-11-06T13:23:55.743Z"
+  }
+]
 
 
-}
+]
+
+:07:27.073 assertion failed: assert evaluated to false: response[2].name = 'Emre'
+n: not a sub-string
+25061ca23d737d6bdb91ce",
+    "email": "qnvmdegp@zvvzuv.com",
+    "updatedAt": "2024-11-01T16:47:24.776Z"
+  },
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "driver"
+    ],
+    "ip": "192.168.1.186",
+    "verified": true,
+    "avatarColor": "b8c9ba",
+    "locale": "tr",
+    "passive": true,
+    "createdAt": "2024-10-28T13:36:33.315Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Test",
+    "identity": "00000000000",
+    "name": "Emre",
+    "_id": "671f9361085039b1f8e2de37",
+    "email": "qnvmdegp07@zvvzuv.com",
+    "updatedAt": "2024-10-28T13:44:23.429Z"
+  },
+  {
+    "country": "Türkiye",
+    "img": "../images/profile.png",
+    "isBuilder": false,
+    "roles": [
+      "admin"
+    ],
+    "ip": "::1",
+    "verified": true,
+    "avatarColor": "5f0ca8",
+    "locale": "tr",
+    "passive": false,
+    "createdAt": "2024-03-11T01:04:05.538Z",
+    "companyId": "65e0ec2e33994f4429481683",
+    "loadTyp": [
+    ],
+    "provider": "none",
+    "surname": "Eren",
+    "identity": "00000000000",
+    "name": "Mehmet",
+    "_id": "65ee58852136998ac2ac0122",
+    "email": "sameteren2341@gmail.com",
+    "updatedAt": "2024-11-06T13:23:55.743Z"
+  }
+]
 
