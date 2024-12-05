@@ -1,22 +1,16 @@
-<testsuite failures="1"
+<testsuite failures="0"
            name="src/test/resources/GetToken.feature"
            skipped="0"
            tests="1"
-           time="20.778035">
+           time="1.334809">
    <testcase classname="src.test.resources.GetToken"
              name="Get Token"
-             time="20.778035">
-      <failure message="GetToken.feature:15 - &#xA;java.net.SocketTimeoutException: Read timed out">* url baseUrl ............................................................. passed
+             time="1.334809">
+      <system-out>* url baseUrl ............................................................. passed
 * path '/auth/login' ...................................................... passed
 * def mybody = ............................................................ passed
 * request mybody .......................................................... passed
-* method POST ............................................................. failed
-
-Stack Trace:
-com.intuit.karate.exception.KarateException: GetToken.feature:15 - 
-java.net.SocketTimeoutException: Read timed out&#xD;
-	at ✽.* method POST (GetToken.feature:15)&#xD;
-
-* status 200 .............................................................. skipped</failure>
+* method POST ............................................................. passed
+* status 200 .............................................................. passed</system-out>
    </testcase>
 </testsuite>

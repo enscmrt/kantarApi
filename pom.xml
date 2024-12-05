@@ -34,6 +34,12 @@
             <version>${karate.version}</version>
             <scope>test</scope>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.intuit.karate/karate-core -->
+        <dependency>
+            <groupId>com.intuit.karate</groupId>
+            <artifactId>karate-core</artifactId>
+            <version>1.4.0.RC3</version>
+        </dependency>
     </dependencies>
 
 </project>

@@ -1,4 +1,4 @@
-20:39:36.106 request:
+21:13:07.676 request:
 1 > POST https://backend-dev-lmw8.onrender.com/kantar/api/auth/login
 1 > Accept-Encoding: gzip,deflate
 1 > Connection: Keep-Alive
@@ -8,13 +8,17 @@
 1 > User-Agent: Apache-HttpClient/4.5.11 (Java/11.0.20)
 {"email":"enesgenerous@gmail.com","password":"Eg210315.,"}
 
-20:39:56.424 java.net.SocketTimeoutException: Read timed out, http call failed after 20316 milliseconds for URL: https://backend-dev-lmw8.onrender.com/kantar/api/auth/login
-20:39:56.425 http request failed: 
-java.net.SocketTimeoutException: Read timed out
-17 GMT
-1 < ETag: W/"13d-Tdtfpqw3wIROI0hOmafBs4ilW7g"
+21:13:08.380 response time in milliseconds: 696.80
+1 < 200
+1 < CF-Cache-Status: DYNAMIC
+1 < CF-Ray: 8ed602233eb49763-FRA
+1 < Connection: keep-alive
+1 < Content-Language: tr
+1 < Content-Type: application/json; charset=utf-8
+1 < Date: Thu, 05 Dec 2024 18:13:07 GMT
+1 < ETag: W/"13d-L0NADfxg/uOO0wAensWbPpQGM0c"
 1 < Server: cloudflare
-1 < Set-Cookie: connect.sid=s%3AoZBVPSfdLcAjg101fhLjWIlMjvyuLFRo.nZq6qIji6wiRl4a5%2BAPPZ7CG%2Fs%2B0de2EPFv78qNMS5s; Path=/; HttpOnly
+1 < Set-Cookie: connect.sid=s%3Ag7FE0PGCBc21pw-himjoJx5p7OcT1wra.JsWgBM16X5w1JS6uQFNKLPtFA3bd%2BJ6hMQfaz7EKpoc; Path=/; HttpOnly
 1 < Strict-Transport-Security: max-age=15552000; includeSubDomains
 1 < Transfer-Encoding: chunked
 1 < Vary: Origin, Accept-Encoding
@@ -25,7 +29,7 @@ java.net.SocketTimeoutException: Read timed out
 1 < cross-origin-resource-policy: same-origin
 1 < origin-agent-cluster: ?1
 1 < referrer-policy: no-referrer
-1 < rndr-id: 86e146e6-a6c8-43cb
+1 < rndr-id: 69cf5258-8b6e-4818
 1 < x-content-type-options: nosniff
 1 < x-dns-prefetch-control: off
 1 < x-download-options: noopen
@@ -33,7 +37,9 @@ java.net.SocketTimeoutException: Read timed out
 1 < x-permitted-cross-domain-policies: none
 1 < x-render-origin-server: Render
 1 < x-xss-protection: 0
-{"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MWY3NGM2OTVjMTdlOGNmMWIxN2YwMCIsInJvbGVzIjpbImRyaXZlciJdLCJlbWFpbCI6ImVuZXNnZW5lcm91c0BnbWFpbC5jb20iLCJjb21wYW55SWQiOiI2NzFmNzRjNjk1YzE3ZThjZjFiMTdmMDEiLCJpYXQiOjE3MzM0MTkyNzcsImV4cCI6MTczNjAxMTI3N30.o9M6xbTf6RHVUoupNB5oPsv2-54rmfG_-8csV7azmAk"}
+{"accessToken":"Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MWY3NGM2OTVjMTdlOGNmMWIxN2YwMCIsInJvbGVzIjpbImRyaXZlciJdLCJlbWFpbCI6ImVuZXNnZW5lcm91c0BnbWFpbC5jb20iLCJjb21wYW55SWQiOiI2NzFmNzRjNjk1YzE3ZThjZjFiMTdmMDEiLCJpYXQiOjE3MzM0MjIzODcsImV4cCI6MTczNjAxNDM4N30.LJj_nhK22OAjuVF8EVTT-q-GazoQeb6DQ6rOer2uLlk"}
+
+6RHVUoupNB5oPsv2-54rmfG_-8csV7azmAk"}
 
 16.403 request:
 1 > GET https://backend-dev-lmw8.onrender.com/kantar/api/auth/profile
