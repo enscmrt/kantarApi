@@ -1,10 +1,10 @@
-Feature: Get Balance
+Feature: Get Payment
 
   Scenario: With CompanyId
 
     * url baseUrl
-    * path '/balance/671f74c695c17e8cf1b17f01'
-    * def mytoken = call read('classpath:GetToken.feature')
+    * path '/paymentbalance/threeds/674847ed34d98cb1f137bb9a/payments-balance'
+    * def mytoken = call read('classpath:GetTokenAdmin.feature')
     * header token = mytoken.response.accessToken
     * header Content-Type = 'application/json'
     * method GET

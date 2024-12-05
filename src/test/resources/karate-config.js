@@ -12,6 +12,7 @@ function fn() {
   karate.configure('logPrettyResponse', false); // Yanıtları detaylı şekilde yazdırmaz
   karate.configure('logPrettyRequest', false); // İstekleri detaylı şekilde yazdırmaz
   karate.configure('proxy', { url: 'http://proxy.server:8080' });
+//  configure retry = { count: 3, interval: 20000 } // 3 kez dene, her seferinde 2 saniye bekle
 
   return config;
 }

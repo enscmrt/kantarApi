@@ -1,11 +1,11 @@
-Feature: Get Balance
+Feature: Get Balances
 
-  Scenario: With CompanyId
+  Scenario: Get Balances On Driver Role
 
     * url baseUrl
-    * path '/balance/671f74c695c17e8cf1b17f01'
+    * path '/balance'
     * def mytoken = call read('classpath:GetToken.feature')
     * header token = mytoken.response.accessToken
     * header Content-Type = 'application/json'
     * method GET
-    * status 200
+    * status 401

@@ -1,10 +1,10 @@
 Feature: Get Balance
 
-  Scenario: With CompanyId
+  Scenario: With CompanyId on Admin
 
     * url baseUrl
-    * path '/balance/671f74c695c17e8cf1b17f01'
-    * def mytoken = call read('classpath:GetToken.feature')
+    * path '/balance/674847ed34d98cb1f137bb9a'
+    * def mytoken = call read('classpath:GetTokenAdmin.feature')
     * header token = mytoken.response.accessToken
     * header Content-Type = 'application/json'
     * method GET

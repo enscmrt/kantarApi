@@ -1,1 +1,1 @@
-{"features":1,"ignored":0,"efficiency":0.5739373831775701,"failures":null,"totalTime":1351.0486,"threads":1,"scenarios":1,"failed":0,"passed":1,"version":"0.9.5","elapsedTime":2354.0}
+{"features":1,"ignored":0,"efficiency":0.9376792770431879,"failures":{"src.test.resources.GetToken":"GetToken.feature:15 - \njava.net.SocketTimeoutException: Read timed out"},"totalTime":20778.0351,"threads":1,"scenarios":1,"failed":1,"passed":0,"version":"0.9.5","elapsedTime":22159.0}
