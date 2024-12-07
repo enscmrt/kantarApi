@@ -4,9 +4,16 @@ function fn() {
   // Temel URL'yi ayarla
   config.baseUrl = 'https://backend-dev-lmw8.onrender.com/kantar/api';
 
+  var userData = karate.read('classpath:users.json');
+
+      config.currentUser = {
+          email: userData.USER_EMAIL,
+          password: userData.USER_PASSWORD
+    };
+
   // Zaman aşımı ayarları
-  karate.configure('connectTimeout', 20000);
-  karate.configure('readTimeout', 20000);
+  karate.configure('connectTimeout', 10000);
+  karate.configure('readTimeout', 10000);
 
   // Loglama ayarları
   karate.configure('logPrettyResponse', false); // Yanıtları detaylı şekilde yazdırmaz
